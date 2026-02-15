@@ -1,10 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My First Website</title>
+    <title>صفحتي الشخصية</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            background-color: #f2f2f2;
+            padding: 50px;
+        }
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            width: 400px;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        button {
+            background: #0077ff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #0055cc;
+        }
+    </style>
 </head>
 <body>
-    <h1>مرحبا 👋</h1>
-    <p> هذا أول موقع لي على GitHub</p>
+
+    <div class="card">
+        <h1>مرحبا 👋</h1>
+        <p>أنا أتعلم GitHub وإنشاء المواقع</p>
+        <button onclick="alert('شكرا لزيارتك!')">اضغط هنا</button>
+    </div>
+
 </body>
 </html>
